@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <input class="inputText" type="text" placeholder="Wprowadź treść..." />
+        <button>Enter</button>
+
+        <h1>Lista zadań:</h1>
+        <div class="tasks"></div>
+
+        <script>
+            let buttonClick = document.querySelector("button");
+            buttonClick.addEventListener("click", getText);
+
+            button.Click.addEventListener("keypress", function() {
+              if ("keypress" === "Enter")
+            });
+
+            function getText() {
+                let element = document.querySelector(".inputText");
+                let newElement = document.createElement("p");
+                let base = document.querySelector(".tasks");
+                newElement.innerText = element.value;
+                return base.appendChild(newElement);
+            }
+        </script>
+    </body>
+</html>
